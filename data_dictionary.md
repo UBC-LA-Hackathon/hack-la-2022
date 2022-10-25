@@ -1,12 +1,16 @@
+# Hackathon Data
 
-# Navigation Events
+1. **Navigation Events**
+1. **Additional** - this data was pulled using the Canvas API. Included here is the *Official Information* - which is the detailed API and data information from Canvas. We have also included *Field Descriptions* for each additional data source. The field descriptions indicates which fields from the API are kept, and provides more information about the data. Where necessary, notes are added to help understand this data more thoroughly. 
+   
+## Navigation Events
 > navigation_events.csv
 
-# Assignments 
+## Assignments 
 - File: additional/assignments.csv
-- Official Information (see ): https://canvas.instructure.com/doc/api/assignments.html
+- Official Information: https://canvas.instructure.com/doc/api/assignments.html
 
-## Field Descriptions
+### Field Descriptions
 
 Field | Type | Description | Note
 ---------|----------|---------|---------
@@ -23,17 +27,18 @@ Field | Type | Description | Note
  workflow_state | string | The state of the assignment within the course | Typically published or unpublished 
  published | boolean | The published state of a given assignment
 
-# Discussion Topics
-> addtional/discussion_topics.csv
+## Discussion Topics
+> File: additional/discussion_topics.csv
+> Official Information: https://canvas.instructure.com/doc/api/discussion_topics.html
 
-# Enrollments
+## Enrollments
 > additional/enrollments.csv
 
-# Files
+## Files
 > additional/files.csv
 
-# Module Items
+## Module Items
 > additional/module_items.csv
 
-# Pages
+## Pages
 > additional/pages.csv

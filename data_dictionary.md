@@ -8,15 +8,63 @@ Original Navigation Events (not used in this hackathon) are in the following for
 ## Navigation Events
 > navigation_events.csv
 
-## Assignments 
-- File: additional/assignments.csv
-- Official Information: https://canvas.instructure.com/doc/api/assignments.html
+Navigation events are a type of Caliper event. There are different "types" of navigation events based on the kind of event (the type and subtype). In the original data, Caliper events are in JSON format and each event includes a list of "data". In the transformed csv, each item in the data list is an "event". The field will contain the prefix event__ for each. 
+### Field Descriptions
+
+Field | Type | Description | Note
+---------|----------|---------|---------
+type | string | The type of event | all event types in this data are NavigationEvent
+action 
+event_time | datetime | The datetime of the event action
+session_id | id string | When a user performs a series of actions within a certain timeframe (between action or inaction), or between logins - this is categorized as a single session | TODO - how Canvas defines a session
+membership_role | list | The  
+membership_type 
+event__id
+event__type
+event__actor_type
+event__action
+event__object_type
+event__object_name
+event__object_extensions_asset_type
+event__object_extensions_http_method
+event__eventTime
+event__edApp_type
+event__session_type
+object_id_type
+event__object_id_type
+event__attachment_type
+object_id
+event__object_extensions_asset_name
+actor_id
+## Module Items
+> File: additional/module_items.csv
+> Official Information: (module), (module item)
+
+In Canvas, content can be organized into Modules which contain module items. Module items can be pages, files, assignments, quizzes, discussion forums etc. Module items can be published/unpublished, if they are assignments they can have due dates, and if they are pages/files they can have to-do dates. Modules can be organized in any way, could have requirements and/or pre-requisites and may be published/unpublished.  
+
+![module and items](imgs/modules_instructor_view.png)
+
 
 ### Field Descriptions
 
 Field | Type | Description | Note
 ---------|----------|---------|---------
- id | assignment_id | The assignment_id is a unique identifier of an assignment | 
+
+## Assignments 
+- File: additional/assignments.csv
+- Official Information: https://canvas.instructure.com/doc/api/assignments.html
+
+Assignments are any sort of assessible content in Canvas - this may include an Assignment, Quiz, or Graded Discussion. Assignments can be found in the Assignments navigation (when set to visible by the instructor), and/or included as a module item - this depends on the decisions of individual course instructors. Instructors can choose to organize Assignments in groups for organizational (as done in the example Assignments area below) and/or grading purposes (i.e. creates weighting for group of assignments). 
+
+> For the purposes of the hackathon, assume that all Assignments are 
+
+![assignments](imgs/assignments_instructor_view.png)
+
+### Field Descriptions
+
+Field | Type | Description | Note
+---------|----------|---------|---------
+ id | assignment_id | The assignment_id is a unique identifier of an assignment | The assignment_id has been anonymized for the purpose of the hackathon (it is typically an integer)
  due_at | datetime | The due date of the assignment
  unlock_at | datetime | The datetime of when to unlock the assignment (make it accessible to students) | If empty, there is no lock / unlock dates for this assignment
  lock_at | datetime | The datetime of when to lock the assignment (make it inaccessible to students) | If empty, there is no lock / unlock dates for this assignment
@@ -29,18 +77,16 @@ Field | Type | Description | Note
  workflow_state | string | The state of the assignment within the course | Typically published or unpublished 
  published | boolean | The published state of a given assignment
 
+
 ## Discussion Topics
 > File: additional/discussion_topics.csv
 > Official Information: https://canvas.instructure.com/doc/api/discussion_topics.html
 
-## Enrollments
-> additional/enrollments.csv
-
 ## Files
 > additional/files.csv
 
-## Module Items
-> additional/module_items.csv
-
 ## Pages
 > additional/pages.csv
+
+## Enrollments
+> additional/enrollments.csv

@@ -8,7 +8,7 @@ Original Navigation Events (not used in this hackathon) are in the following for
 ## Navigation Events
 > navigation_events.csv
 
-Navigation events are a type of Caliper event. There are different "types" of navigation events based on the kind of event (the type and subtype). In the original data, Caliper events are in JSON format and each event includes a list of "data". In the transformed csv, each item in the data list is an "event". The field will contain the prefix event__ for each. 
+Navigation events are a type of Caliper event. There are different "types" of navigation events based on the kind of event (in the fields included, this should align to event__object_extensions_asset_type). In the original data, Caliper events are in JSON format and each event includes a list of "data". In the transformed csv, each item in the data list is an "event". The field will contain the prefix event__ for each. 
 ### Field Descriptions
 
 Field | Type | Description | Note
@@ -36,9 +36,10 @@ event__attachment_type
 object_id
 event__object_extensions_asset_name
 actor_id
+
 ## Module Items
-> File: additional/module_items.csv
-> Official Information: (module), (module item)
+- File: additional/module_items.csv
+- Official Information: (module), (module item)
 
 In Canvas, content can be organized into Modules which contain module items. Module items can be pages, files, assignments, quizzes, discussion forums etc. Module items can be published/unpublished, if they are assignments they can have due dates, and if they are pages/files they can have to-do dates. Modules can be organized in any way, could have requirements and/or pre-requisites and may be published/unpublished.  
 
@@ -79,14 +80,76 @@ Field | Type | Description | Note
 
 
 ## Discussion Topics
-> File: additional/discussion_topics.csv
-> Official Information: https://canvas.instructure.com/doc/api/discussion_topics.html
+- File: additional/discussion_topics.csv
+- Official Information: https://canvas.instructure.com/doc/api/discussion_topics.html
+
+### Field Descriptions
+
+Field | Type | Description | Note
+---------|----------|---------|---------
+id | identifier | The id of the discussion topic.
+title | string | The title of the discussion topic
+position | number |  The position order of discussion topics in the discussion forums
+podcast_has_student_posts | boolean | 
+discussion_type | string | A discussion topic can allow threaded responses or single comments. Indicated by discussion_type
+lock_at | datetime | The date to lock discussion (if provided)
+allow_rating | boolean | Whether to allow student rating of posts
+discussion_subentry_count | number | The number of responses to the discussion topic
+podcast_url | url | If the discussion topic has an associated podcast feed, the url of the feed 
+read_state | string | 
+published | boolean | Whether the discussion topic is published
+pinned | boolean | Discussion topics can be pinned to the top of the page by the instructor, if so will be TRUE
+todo_date_date | datetime | If given a todo date in Canvas - the suggested datetime of completion 
 
 ## Files
-> additional/files.csv
+- File: additional/files.csv
+- Official Information: https://canvas.instructure.com/doc/api/files.html 
+
+Instructors can include files in their Canvas courses. These files can become module items, or remain in the "Files" area. Files are associated with individual courses. Files can be embedded in Canvas pages, images included in pages or in the course header are considered files. 
+
+![files](imgs/files_instructor_view.png)
+
+### Field Descriptions
+
+Field | Type | Description | Note
+---------|----------|---------|---------
+id | identifier | The identifier value of the file
+filename_masked | string | The name of the file (masked for this purpose)
+content-type | string | Indicates the kind of file
+hidden | boolean | Whether the file is hidden from students
+mime_class | string | The kind of file
+media_entry_id | | 
+category | | 
+
 
 ## Pages
-> additional/pages.csv
+- File: additional/pages.csv
+- Official Information: https://canvas.instructure.com/doc/api/pages.html
+
+Most Canvas content takes the form of pages (and files). Like other Canvas content, this can be found in the navigation Pages (when allowed by instructors) or included as a module item. 
+  
+![pages](imgs/pages_instructor_view.png)
+### Field Descriptions
+
+Field | Type | Description | Note
+---------|----------|---------|---------
+id | identifier | The id of the page
+title | string | The title of the page as appears in Canvas
+page_url | string | The navigation url associated with the page. The full url would appear in the form of https://canvas.ubc.ca/COURSE_ID/page_url
+published | boolean | Whether the page is published 
 
 ## Enrollments
-> additional/enrollments.csv
+- File: additional/enrollments.csv
+- Official Information: https://canvas.instructure.com/doc/api/enrollments.html
+
+Enrollments are the people enrolled in the Course.
+
+### Field Descriptions
+
+Field | Type | Description | Note
+---------|----------|---------|---------
+user_id | string | The transformed identifier of the user | In the anonymized dataset takes the form of LEARNER_{number}
+type | string | The type of enrollment - this dataset has been limited to StudentEnrollment and StudentViewEnrollment | StudentViewEnrollment is automatically created when an instructor chooses to preview as a student
+last_activity_at | datetime | The datetime as determined by Canvas of the last activity in the course
+last_attended_at | datetime | The datetime of the individual's last attendance
+total_activity_time | number | The total activity time as calculated by Canvas (in hours)

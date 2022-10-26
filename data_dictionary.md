@@ -9,6 +9,7 @@ Original Navigation Events (not used in this hackathon) are in the following for
 > navigation_events.csv
 
 Navigation events are a type of Caliper event. There are different "types" of navigation events based on the kind of event (in the fields included, this should align to event__object_extensions_asset_type). In the original data, Caliper events are in JSON format and each event includes a list of "data". In the transformed csv, each item in the data list is an "event". The field will contain the prefix event__ for each. 
+
 ### Field Descriptions
 
 Field | Type | Description | Note
@@ -39,7 +40,7 @@ actor_id
 
 ## Module Items
 - File: additional/module_items.csv
-- Official Information: (module), (module item)
+- Official Information:  https://canvas.instructure.com/doc/api/modules.html (includes information on modules and module items)
 
 In Canvas, content can be organized into Modules which contain module items. Module items can be pages, files, assignments, quizzes, discussion forums etc. Module items can be published/unpublished, if they are assignments they can have due dates, and if they are pages/files they can have to-do dates. Modules can be organized in any way, could have requirements and/or pre-requisites and may be published/unpublished.  
 
@@ -82,6 +83,8 @@ Field | Type | Description | Note
 ## Discussion Topics
 - File: additional/discussion_topics.csv
 - Official Information: https://canvas.instructure.com/doc/api/discussion_topics.html
+
+![discussions](imgs/discussion_topics_instructor_view.png)
 
 ### Field Descriptions
 
@@ -129,6 +132,7 @@ category | |
 Most Canvas content takes the form of pages (and files). Like other Canvas content, this can be found in the navigation Pages (when allowed by instructors) or included as a module item. 
   
 ![pages](imgs/pages_instructor_view.png)
+
 ### Field Descriptions
 
 Field | Type | Description | Note

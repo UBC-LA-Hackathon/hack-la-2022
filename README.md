@@ -8,7 +8,7 @@ Welcome to the #hack-la-2022 github repository. Please fork this repo and share 
 * a data sample (full data is available to registrants through the Canvas course)
   
 * a final_product folder
-  * please fill out `description.md` 
-  * add your presentation files or a link to your presentation
-  * add your final product description (or use this README to describe)
+  * add your final product description and reflection 
+  * add your presentation files or a link to your presentation - suggested areas to cover in `slides.pptx` (use this as a template, a guide, or just inspiration - it is not a requirement to answer all questions)
+
 

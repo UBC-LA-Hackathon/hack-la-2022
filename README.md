@@ -11,4 +11,6 @@ Welcome to the #hack-la-2022 github repository. Please fork this repo and share 
   * add your final product description and reflection 
   * add your presentation files or a link to your presentation - suggested areas to cover in `slides.pptx` (use this as a template, a guide, or just inspiration - it is not a requirement to answer all questions)
 
+# "Submit"
 
+When you are ready to "submit" - please create a new branch called `hacked-la-2022_{your team name}`. If you have time, please replace this README with your project description (you can use [description.md](final_product/description.md) as a template). 

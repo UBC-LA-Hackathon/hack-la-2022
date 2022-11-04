@@ -50,9 +50,9 @@ event__session_type
 object_id_type
 event__object_id_type
 event__attachment_type
-object_id | id string | This is the unique identifer for each object, and should relate to each event__object_extensions_asset_name. | This should act as your join key, where possible to the additional datasets
+object_id | identifier | This is the unique identifer for each object, and should relate to each event__object_extensions_asset_name. | This should act as your join key, where possible to the additional datasets
 event__object_extensions_asset_name | string | The specific asset that was navigated to. | Should refer to Canvas assets - assignments, discussions, module_items, pages etc. 
-actor_id | id string | 
+actor_id | identifier | 
 
 ## Module Items
 - File: additional/module_items.csv

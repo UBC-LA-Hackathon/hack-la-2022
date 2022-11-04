@@ -120,6 +120,14 @@ published | boolean | Whether the discussion topic is published
 pinned | boolean | Discussion topics can be pinned to the top of the page by the instructor, if so will be TRUE
 todo_date_date | datetime | If given a todo date in Canvas - the suggested datetime of completion 
 
+## Discussions
+- File: additional/discussions.csv
+
+### Field Descriptions
+
+Field | Type | Description | Note
+---------|----------|---------|---------
+  
 ## Files
 - File: additional/files.csv
 - Official Information: https://canvas.instructure.com/doc/api/files.html 
@@ -173,3 +181,11 @@ type | string | The type of enrollment - this dataset has been limited to Studen
 last_activity_at | datetime | The datetime as determined by Canvas of the last activity in the course
 last_attended_at | datetime | The datetime of the individual's last attendance
 total_activity_time | number | The total activity time as calculated by Canvas (in hours)
+
+## Gradebook
+> Coming soon - the assignment gradebook from Canvas
+
+### Field Descriptions
+
+Field | Type | Description | Note
+---------|----------|---------|---------

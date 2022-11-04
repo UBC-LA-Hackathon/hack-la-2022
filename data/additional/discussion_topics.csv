@@ -1,0 +1,20 @@
+id,title,position,podcast_has_student_posts,discussion_type,lock_at,allow_rating,discussion_subentry_count,podcast_url,read_state,published,pinned,todo_date_date
+132f3fab56d60839d727b966a76c1b1e,Assignment 1 Discussion forum,,FALSE,threaded,,TRUE,0,,read,TRUE,FALSE,
+e1f90c16c123e0f96b2af7d94a1c335c,Introduce yourself,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-01-15 20:06:09+00:00
+7c9e39571ad00fe24282e5b5366d7563,Discussion 2: Reflect on rationales for eLearning,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-01-29 20:05:10+00:00
+c916612763c04832d8e7b9e89deb7d2a,Discussion 1: The meaning of eLearning,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-01-22 20:06:09+00:00
+bb62cd396b9a8a94ecef6b5d1c4f8ad1,Discussion 3: Funding issues,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-02-05 20:06:09+00:00
+74d57e9d2bfa697878ac88bca9170c78,Discussion 6: Organization & support,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-02-26 20:06:09+00:00
+4a5f8d361306c7c9c0ea2c6edd2058f8,Discussion 8: Critical reflection on some institutional strategic plans,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-03-12 19:06:09+00:00
+0083641e2e8cf92a45d209350b12f797,Discussion 7: eLearning planning at your institution?,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-03-05 20:06:09+00:00
+38da9c46ca05b04b0b0335af760c3bdd,Discussion 4: Examples of faculty development for eLearning readiness,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-02-12 20:06:09+00:00
+77db8e17563955af14dd1bea5d82a703,Discussion 10: Reflections on eLearning readiness,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-03-26 19:06:09+00:00
+1b4199b940079ccb8dc5f404b9324e43,Discussion 5: Learner readiness for eLearning in the new era,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-02-12 20:06:09+00:00
+9ef7d7e62a0117e6fca291f4ce0a00c2,Discussion 9: Aligning institutional plans with government policies,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,2033-03-19 19:06:09+00:00
+2cb69a45828f6ad46c1975d35822ce4d,Assignment 2 Discussion forum,,FALSE,threaded,,TRUE,0,,unread,TRUE,FALSE,
+449cbcaffb247e04fa8151f487926aab,Discussion 12: Analysis and comparison of approaches to eLearning ,6,FALSE,threaded,,TRUE,0,,unread,TRUE,TRUE,2033-04-09 19:06:09+00:00
+0a31f2efd159230560dab31d27756fb1,Discussion 11: Reflections on eLearning implementation strategies,5,FALSE,threaded,,TRUE,0,,unread,TRUE,TRUE,2033-04-02 19:06:09+00:00
+26b56f0824ee817de6df74441ba9e420,Assignment 3 Discussion forum,4,FALSE,threaded,,TRUE,0,,unread,TRUE,TRUE,
+3bc2d8a4ae8dfa21b926bc34599560e2,Q&A with Guest Speaker,3,FALSE,threaded,,TRUE,12,,read,TRUE,TRUE,2033-03-23 19:06:09+00:00
+a475fae949c627a4125abbfcf0faeaa8,Casual Area,2,FALSE,threaded,,TRUE,35,,read,TRUE,TRUE,
+5140d6a41e913754246127780ae01505,Q&A about the course and assignments,1,FALSE,threaded,,TRUE,0,,read,TRUE,TRUE,

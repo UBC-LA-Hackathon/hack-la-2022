@@ -1,0 +1,10 @@
+id,due_at,unlock_at,lock_at,points_possible,grading_type,position,name,submission_types,has_submitted_submissions,workflow_state,published
+c81f04547a95da2a7b88054ef491b7c4,2033-02-05 20:06:09+00:00,,,100,points,1,Assignment 1,['online_upload'],TRUE,published,TRUE
+e5913deca98a20cf4dc4658b53168732,2033-02-05 20:06:09+00:00,,,100,points,2,Assignment 1 Copy,['online_upload'],FALSE,unpublished,FALSE
+a4dc11e7e79361fc5886a9078aac66b8,2033-03-05 20:06:09+00:00,,,100,points,1,Assignment 2,['online_upload'],TRUE,published,TRUE
+811d93ea379b5cdd5a19f1b5dbab88cd,2033-04-09 19:06:09+00:00,,,100,points,2,Assignment 3 (option A),['online_upload'],TRUE,published,TRUE
+df8d1f1ff3f48fdc24a278b40c5f45cc,2033-04-09 19:06:09+00:00,,,100,points,3,Assignment 3 (option B),['online_upload'],TRUE,published,TRUE
+bb971b36c1578cede00150acda89aa99,2033-04-09 19:06:09+00:00,,,100,points,4,Assignment 3 (option C),['online_upload'],TRUE,published,TRUE
+f1ad954cd2cddda6e17f6fc225d1aa3e,2033-04-09 19:06:09+00:00,,,100,points,5,Assignment 3 (option D),['online_upload'],TRUE,published,TRUE
+5965e0b0c712861d0efdd9be54572114,,,,10,points,1,Participation grade: Formative (not included in final grade),['none'],FALSE,unpublished,FALSE
+067f62cae2a61d43712cc7c84f1eb08a,,,,10,points,2,Participation grade: Summative,['none'],FALSE,published,TRUE

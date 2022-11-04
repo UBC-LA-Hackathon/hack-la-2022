@@ -50,9 +50,9 @@ event__session_type
 object_id_type
 event__object_id_type
 event__attachment_type
-object_id | identifier | This is the unique identifer for each object, and should relate to each event__object_extensions_asset_name. | This should act as your join key, where possible to the additional datasets
+object_id | string | This is the unique identifer for each object, and should relate to each event__object_extensions_asset_name. | This should act as your join key, where possible to the additional datasets
 event__object_extensions_asset_name | string | The specific asset that was navigated to. | Should refer to Canvas assets - assignments, discussions, module_items, pages etc. 
-actor_id | identifier | 
+actor_id | string | 
 
 ## Module Items
 - File: additional/module_items.csv
@@ -82,7 +82,7 @@ Assignments are any sort of assessible content in Canvas - this may include an A
 
 Field | Type | Description | Note
 ---------|----------|---------|---------
- id | assignment_id | The assignment_id is a unique identifier of an assignment | The assignment_id has been anonymized for the purpose of the hackathon (it is typically an integer)
+ id | assignment_id | The assignment_id is a unique string of an assignment | The assignment_id has been anonymized for the purpose of the hackathon (it is typically an integer)
  due_at | datetime | The due date of the assignment
  unlock_at | datetime | The datetime of when to unlock the assignment (make it accessible to students) | If empty, there is no lock / unlock dates for this assignment
  lock_at | datetime | The datetime of when to lock the assignment (make it inaccessible to students) | If empty, there is no lock / unlock dates for this assignment
@@ -106,7 +106,7 @@ Field | Type | Description | Note
 
 Field | Type | Description | Note
 ---------|----------|---------|---------
-id | identifier | The id of the discussion topic.
+id | string | The id of the discussion topic.
 title | string | The title of the discussion topic
 position | number |  The position order of discussion topics in the discussion forums
 podcast_has_student_posts | boolean |
@@ -150,7 +150,7 @@ Instructors can include files in their Canvas courses. These files can become mo
 
 Field | Type | Description | Note
 ---------|----------|---------|---------
-id | identifier | The identifier value of the file
+id | string | The string value of the file
 filename_masked | string | The name of the file (masked for this purpose)
 content-type | string | Indicates the kind of file
 hidden | boolean | Whether the file is hidden from students
@@ -171,7 +171,7 @@ Most Canvas content takes the form of pages (and files). Like other Canvas conte
 
 Field | Type | Description | Note
 ---------|----------|---------|---------
-id | identifier | The id of the page
+id | string | The id of the page
 title | string | The title of the page as appears in Canvas
 page_url | string | The navigation url associated with the page. The full url would appear in the form of https://canvas.ubc.ca/COURSE_ID/page_url
 published | boolean | Whether the page is published
@@ -186,7 +186,7 @@ Enrollments are the people enrolled in the Course.
 
 Field | Type | Description | Note
 ---------|----------|---------|---------
-user_id | string | The transformed identifier of the user | In the anonymized dataset takes the form of LEARNER_{number}
+user_id | string | The transformed string of the user | In the anonymized dataset takes the form of LEARNER_{number}
 type | string | The type of enrollment - this dataset has been limited to StudentEnrollment and StudentViewEnrollment | StudentViewEnrollment is automatically created when an instructor chooses to preview as a student
 last_activity_at | datetime | The datetime as determined by Canvas of the last activity in the course
 last_attended_at | datetime | The datetime of the individual's last attendance

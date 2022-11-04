@@ -1,3 +1,4 @@
 *.env
 ~$*
 hide__*
+*.DS_Store

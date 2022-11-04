@@ -8,25 +8,41 @@ Original Navigation Events (not used in this hackathon) are in the following for
 ## Navigation Events
 > navigation_events.csv
 
-Navigation events are a type of Caliper event. There are different "types" of navigation events based on the kind of event (in the fields included, this should align to event__object_extensions_asset_type). In the original data, Caliper events are in JSON format and each event includes a list of "data". In the transformed csv, each item in the data list is an "event". The field will contain the prefix event__ for each. 
+Caliper events follow certain profiles depending on their type. In general, a Caliper Event described the relationship between an actor and an object, where the actor acts upon the object. In our case, the actor NavigatedTo an object, where the object is some part of the Canvas course.  
+
+![](https://www.imsglobal.org/sites/default/files/specs/images/caliper/1p2/caliper-event_model_no_title-v1p2.png)
+> Image from [IMS Global](https://www.imsglobal.org/spec/caliper/v1p2#event)
+
+More about the Caliper information model: https://www.imsglobal.org/spec/caliper/v1p2#the-information-model
+
+[Navigation events](https://www.imsglobal.org/spec/caliper/v1p2#navigationevent) are a type of Caliper event. In the original data, Caliper events are in JSON format and each event includes a list of "data". In the transformed csv, each item in the data list is an "event". The field will contain the prefix event__ for each. 
+
 
 ### Field Descriptions
+- We have only included the fields included in the dataset, and partial definitions. You should find everything you need to know in the Caliper documentation. 
+
+ See: 
+ 1. https://www.imsglobal.org/spec/caliper/v1p2#event
+   
+ 2. https://www.imsglobal.org/spec/caliper/v1p2#navigationevent 
+
+> 🧐 Stuck on your hackathon idea? Help us build the data dictionary! Submit a pull request from a branch named `dictionary_update_{TEAMNAME}`. This shouldn't just by a replication of the Caliper dictionaries above - but should provide more meaningful Descriptions and Notes.  
 
 Field | Type | Description | Note
 ---------|----------|---------|---------
-type | string | The type of event | all event types in this data are NavigationEvent
+type | 
 action 
-event_time | datetime | The datetime of the event action
-session_id | id string | When a user performs a series of actions within a certain timeframe (between action or inaction), or between logins - this is categorized as a single session | TODO - how Canvas defines a session
-membership_role | list | The  
-membership_type 
-event__id
-event__type
-event__actor_type
-event__action
-event__object_type
-event__object_name
-event__object_extensions_asset_type
+event_time | 
+session_id | 
+membership_role |  
+membership_type | 
+event__id | 
+event__type | 
+event__actor_type | 
+event__action | 
+event__object_type |
+event__object_name | 
+event__object_extensions_asset_type |
 event__object_extensions_http_method
 event__eventTime
 event__edApp_type
@@ -34,9 +50,9 @@ event__session_type
 object_id_type
 event__object_id_type
 event__attachment_type
-object_id
-event__object_extensions_asset_name
-actor_id
+object_id | id string | This is the unique identifer for each object, and should relate to each event__object_extensions_asset_name. | This should act as your join key, where possible to the additional datasets
+event__object_extensions_asset_name | string | The specific asset that was navigated to. | Should refer to Canvas assets - assignments, discussions, module_items, pages etc. 
+actor_id | id string | 
 
 ## Module Items
 - File: additional/module_items.csv

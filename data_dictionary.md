@@ -193,7 +193,13 @@ last_attended_at | datetime | The datetime of the individual's last attendance
 total_activity_time | number | The total activity time as calculated by Canvas (in hours)
 
 ## Gradebook
-> Coming soon - the assignment gradebook from Canvas
+> The Assignment gradebook from Canvas (as instructors would see it)
+
+Weights:
+Assignment 1 - 20%
+Assignment 2 - 30%
+Assignment 3 - 20%
+Participation - 20%
 
 ### Field Descriptions
 

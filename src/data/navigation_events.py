@@ -14,4 +14,9 @@ def load_events_data(filepath):
 
 def preprocess_events_data(events_df):
 
+    # drop event__eventTime
+    # membership role remove [""] symbols
+    # remove type column, and event__eventType
+    # deal with null membership role?
+
     return None

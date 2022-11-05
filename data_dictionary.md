@@ -198,7 +198,7 @@ total_activity_time | number | The total activity time as calculated by Canvas (
 Weights:
 Assignment 1 - 20%
 Assignment 2 - 30%
-Assignment 3 - 20%
+Assignment 3 - 30%
 Participation - 20%
 
 ### Field Descriptions

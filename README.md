@@ -4,7 +4,7 @@ The project is to help the instructors analyze the courser performance. Currentl
 
 # Who we are
 Members: Kristy Yu, Alison Liu, Christopher Lin, Aman Sharma, and Atul Singh
-We are KACAA, a team of students from UBC Master of Analytics program.
+We are CAKAA, a team of students from UBC Master of Analytics program.
 
 
 # Tools we use

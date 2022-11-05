@@ -190,7 +190,7 @@ user_id | string | The transformed string of the user | In the anonymized datase
 type | string | The type of enrollment - this dataset has been limited to StudentEnrollment and StudentViewEnrollment | StudentViewEnrollment is automatically created when an instructor chooses to preview as a student
 last_activity_at | datetime | The datetime as determined by Canvas of the last activity in the course
 last_attended_at | datetime | The datetime of the individual's last attendance
-total_activity_time | number | The total activity time as calculated by Canvas (in hours)
+total_activity_time | number | The total activity time as calculated by Canvas (in seconds)
 
 ## Gradebook
 > The Assignment gradebook from Canvas (as instructors would see it)

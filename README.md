@@ -1,7 +1,12 @@
 # 2022 Fall Learning Analytics Hackathon
 > Register here: https://events.ctlt.ubc.ca/events/learning-analytics-hackathon-november-5-2022/
 
-# Welcome!
+# Introduction
+This is the repository of draft works from Group A (Team Anonymous). The final presentation and report can be found [here](https://docs.google.com/presentation/d/17P5R2qGS6CKzdhoxFV6S904Vrnxa07245GDKirIKGfI/edit?usp=sharing).
+
+The following in the instructions from the organizer:
+
+## Welcome!
 Welcome to the #hack-la-2022 github repository. Please fork this repo and share your project back with us. In this repo you should find
 
 * a data dictionary
@@ -11,6 +16,6 @@ Welcome to the #hack-la-2022 github repository. Please fork this repo and share 
   * add your final product description and reflection 
   * add your presentation files or a link to your presentation - suggested areas to cover in `slides.pptx` (use this as a template, a guide, or just inspiration - it is not a requirement to answer all questions)
 
-# "Submit"
+## "Submit"
 
 When you are ready to "submit" - please create a new branch called `hacked-la-2022_{your team name}`. If you have time, please replace this README with your project description (you can use [README_template.md](final_product/README_template.md) as a template). 

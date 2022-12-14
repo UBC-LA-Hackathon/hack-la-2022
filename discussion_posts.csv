@@ -1,0 +1,76 @@
+﻿post_id,post_parent_id,discussion_topic_title,discussion_topic_message,post_message,count_of_likes,timestamp
+1620324,,Finding a team,"<p>Hi everyone,&nbsp;</p><p>My name is Ethan Nguyen and I am in 2nd year of BCS program (Bachelor of Computer Science - Second degree).&nbsp; I am a solo participant and currently, I am looking for a team to join. I had the knowledge and some projects which used Functional programing, Java, Python and C++ and a basic understanding of data visualization using python.&nbsp;</p><p>Anyone who is still looking for a group like me can continue to discuss below so I hope we will have an opportunity to team up together.</p>",,,2022-11-03T13:19:52Z
+5973660,1620324,Finding a team,"Hi everyone, My name is Ethan Nguyen and I am in 2nd year of BCS program (Bachelor of Computer Science - Second degree).  I am a solo participant and currently, I am looking for a team to join. I had the knowledge and some projects which used Functional programing, Java, Python and C++ and a basic understanding of data visualization using python. Anyone who is still looking for a group like me can continue to discuss below so I hope we will have an opportunity to team up together.","Hey guys,
+ 
+I am Michelle and I am a second year Bcom student. And I am also finding a team! However, it  will be my first time attending this kind of events, and I know nothing about programming. I am willing learn and explore! Let me know if there's any chance that we can make a team:)",,2022-11-03T15:48:05Z
+1610626,,Data Questions,<p>Ask your data questions here!&nbsp;</p>,,,2022-10-25T19:00:59Z
+5983762,1610626,Data Questions,Ask your data questions here! ,"What are the grade weights?
+ 
+Assignment 1 - 20%
+Assignment 2 - 30%
+Assignment 3 - 30%
+Participation - 20%",,2022-11-05T16:28:37Z
+1610606,,General Hackathon Questions,"<p>Any questions about the hackathon that we haven't answered, ask here!</p>",,,2022-10-25T18:50:16Z
+5962021,1610606,General Hackathon Questions,"Any questions about the hackathon that we haven't answered, ask here!","Hello,
+My name is Lucas and I am a second-year stat student. I have never been to a Hackathon before so I would like to know how I can prepare for Saturday.
+ 
+Thanks",,2022-11-01T16:49:50Z
+5962353,5962021,General Hackathon Questions,"Any questions about the hackathon that we haven't answered, ask here!","Hi Lucas, 
+First, it will be best to find a team if you don't have one, on Saturday we hope to have participants get started - so there may not be too much time to find a team to join. You can think about what skills you have to bring to a hackathon, and what you may need support from a team for - this can help you decide what kind of project you will complete: building a product, doing some exploration and/or analysis, data visualization etc. 
+Second, you might want to explore git/GitHub if you haven't already. This is the platform we are hoping that student teams use to share their final products. 
+Third, keep your eye out in this course - we hope to release the data (or a sample) soon. You can start exploring / thinking of questions / brainstorming what you might want to build or analyze. We will be working with a subset/transformed version of 'Navigation Events'. https://canvas.instructure.com/doc/api/file.data_service_caliper_navigation_events.html 
+Best,
+Alison ",,2022-11-01T17:46:14Z
+1610604,,Ketchup or Mustard?,<p>Do you prefer ketchup or mustard? Why?</p>,,,2022-10-25T18:50:16Z
+5982874,1610604,Ketchup or Mustard?,Do you prefer ketchup or mustard? Why?,"Ketchup, coz its sweeter!",,2022-11-05T04:20:52Z
+5982875,1610604,Ketchup or Mustard?,Do you prefer ketchup or mustard? Why?,Ketchup ofcourse!.. goes with a lot of things and its better tasting,,2022-11-05T04:21:32Z
+5983316,1610604,Ketchup or Mustard?,Do you prefer ketchup or mustard? Why?,Ketchup ,,2022-11-05T06:24:53Z
+5983695,1610604,Ketchup or Mustard?,Do you prefer ketchup or mustard? Why?,"mustard any day, I love the smell and taste",,2022-11-05T15:17:23Z
+1610605,,Introduce yourself and your team!,"<p>Introduce yourself, let us and your fellow participants know who you are. What program are you in? What brought you to the Hackathon? What are you excited to showcase and/or learn? Does your team already have a few ideas about what to create that you want to share?&nbsp;</p>",,,2022-10-25T18:50:16Z
+5958478,1610605,Introduce yourself and your team!,"Introduce yourself, let us and your fellow participants know who you are. What program are you in? What brought you to the Hackathon? What are you excited to showcase and/or learn? Does your team already have a few ideas about what to create that you want to share? ","Hi and Welcome! I'm Alison, one of the organizers of the hackathon.
+I am a research analyst at UBC Sauder where I help to explore, analyze, and understand data that can support our faculty in their teaching practice. The data we will be sharing in this hackathon is the kind of data I would use to help inform an instructor about their course and assessment design - so I am looking forward to seeing what you would ask of the data or create with it. 
+My analytics toolkit involves Python, Jupyter notebooks for cleaning, exploration, and documentation, and Tableau for data visualization.  
+I am looking forward to learning more about you and your teams. I'm also happy to answer any questions here or via email (alison.myers@sauder.ubc.ca). ",1,2022-11-01T00:43:09Z
+5962320,1610605,Introduce yourself and your team!,"Introduce yourself, let us and your fellow participants know who you are. What program are you in? What brought you to the Hackathon? What are you excited to showcase and/or learn? Does your team already have a few ideas about what to create that you want to share? ","Hi all, my name is Justin, also one of the organizers of the hackathon.
+I work on the Learning Analytics team at the Centre for Teaching, Learning and Technology (CTLT), where I build and maintain the distributed cloud infrastructure for collecting and storing learning data generated by the online learning technology systems at UBC. I also work on projects related to Learning Analytics with a wide range of faculty partners.
+I use Python/Jupyter notebooks and Node.js/Javascript for most of my projects.
+You can contact me here or via email (justin.lee@ubc.ca) if you have any questions. ",,2022-11-01T17:39:54Z
+5968954,1610605,Introduce yourself and your team!,"Introduce yourself, let us and your fellow participants know who you are. What program are you in? What brought you to the Hackathon? What are you excited to showcase and/or learn? Does your team already have a few ideas about what to create that you want to share? ","Hi, 
+My name is Tanmay Jain and I'm an MBAN 2023 candidate at Sauder. 
+Our team (Group D) includes:
+Kai - Sports expertDarian - The orange guyLydia - Beauty among the beastsChinmay - Tanmay's twin
+We're all from the same cohort and are super excited to join this hackathon. None of us have ever done this before so there's lots to be learnt and we hope to build on our data skills. We look at this project as a real world application of what we're learning in MBAN and we hope to take this further with new skills that we learn. 
+We're also looking forward to meeting new folks and seeing their ideas and analyses. 
+Thanks
+ 
+ ",3,2022-11-02T18:58:52Z
+5983306,5968954,Introduce yourself and your team!,"Introduce yourself, let us and your fellow participants know who you are. What program are you in? What brought you to the Hackathon? What are you excited to showcase and/or learn? Does your team already have a few ideas about what to create that you want to share? ",Let's gooooo,,2022-11-05T06:22:54Z
+5971610,1610605,Introduce yourself and your team!,"Introduce yourself, let us and your fellow participants know who you are. What program are you in? What brought you to the Hackathon? What are you excited to showcase and/or learn? Does your team already have a few ideas about what to create that you want to share? ","Hi, I'm Danny. 
+I'm 4th year Math&amp;Stat student. I'm really excited to participate this Hackathon!",,2022-11-03T02:55:12Z
+5982104,1610605,Introduce yourself and your team!,"Introduce yourself, let us and your fellow participants know who you are. What program are you in? What brought you to the Hackathon? What are you excited to showcase and/or learn? Does your team already have a few ideas about what to create that you want to share? ","Hello, 
+My name is Ashish gnawali, I'm a 4th Year in Sauder specializing in Marketing. I'm excited to learn from the other people who are also participating and see what kinds of things they are going to create!My teammates are 
+Avi Sharma 
+and 
+Arsy Nassiri",,2022-11-05T00:58:12Z
+5982619,1610605,Introduce yourself and your team!,"Introduce yourself, let us and your fellow participants know who you are. What program are you in? What brought you to the Hackathon? What are you excited to showcase and/or learn? Does your team already have a few ideas about what to create that you want to share? ","Hi 
+My name is Abhilash. Me and my team are part of the MBAN 2023 cohort.
+Our team includes:
+Yash Singhai
+Martin Lau
+Deb Das Mohapatra
+Mukul Joshi
+ 
+Looking forward to meeting everyone!!",,2022-11-05T03:14:12Z
+5982684,1610605,Introduce yourself and your team!,"Introduce yourself, let us and your fellow participants know who you are. What program are you in? What brought you to the Hackathon? What are you excited to showcase and/or learn? Does your team already have a few ideas about what to create that you want to share? ","Hi all,
+My name is Ke. Me and my team (Group E) are also from the MBAN 2023 cohort. 
+My teammates include:
+
+Crystal Fan
+Shijie Yu
+Junyi Gu
+Ken Yung
+
+We are looking forward to meeting you all and learning new things tomorrow. 
+Thanks,
+Ke Xu",1,2022-11-05T03:33:22Z
+5983085,5982684,Introduce yourself and your team!,"Introduce yourself, let us and your fellow participants know who you are. What program are you in? What brought you to the Hackathon? What are you excited to showcase and/or learn? Does your team already have a few ideas about what to create that you want to share? ","Go, team E!",,2022-11-05T05:23:24Z

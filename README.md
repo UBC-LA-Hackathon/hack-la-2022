@@ -14,7 +14,9 @@ We are KACAA, a team of students from UBC Master of Analytics program.
 
 # Prototype of current output
 * An automated python script: Instructors can use this file to convert the raw data from Cavas API to 3 combined csv files for tableau data input.
-* Tableau dashboard: With the data from python script, instructors can look for the infomration on the Tableau dashboard for free.
+* Tableau dashboard: With the data from python script, instructors can look for the infomration on the Tableau dashboard for free. 
+
+The final dashboard is published[here](https://public.tableau.com/views/CanvasCoursePerformanceAnalysis/CoursePerformanceAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link))
 
 # Potential future function:
 * Apply machine learning model to predict learners' behaviors and scores

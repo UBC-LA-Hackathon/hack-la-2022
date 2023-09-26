@@ -1,16 +1,22 @@
-# 2022 Fall Learning Analytics Hackathon
-> Register here: https://events.ctlt.ubc.ca/events/learning-analytics-hackathon-november-5-2022/
 
-# Welcome!
-Welcome to the #hack-la-2022 github repository. Please fork this repo and share your project back with us. In this repo you should find
+# 2022 Fall Learning Analytics Hackathon - Course Performance Analysis
+The project is to help the instructors analyze the courser performance. Currently, there is a built-in analytic tool on Canvas called New Analytics. It provides some analytics insights yet it has a major limitation: there is a 24 to 40 hrs delay on the analytics results. Our goal is to use Canvas API data to help instructors to look at the real-time analytics results, improving the course structure for next year.
 
-* a data dictionary
-* a data sample (full data is available to registrants through the Canvas course)
-  
-* a final_product folder
-  * add your final product description and reflection 
-  * add your presentation files or a link to your presentation - suggested areas to cover in `slides.pptx` (use this as a template, a guide, or just inspiration - it is not a requirement to answer all questions)
+# Who we are
+Members: Kristy Yu, Alison Liu, Christopher Lin, Aman Sharma, and Atul Singh
 
-# "Submit"
+We are KACAA, a team of students from UBC Master of Business Analytics program.
 
-When you are ready to "submit" - please create a new branch called `hacked-la-2022_{your team name}`. If you have time, please replace this README with your project description (you can use [README_template.md](final_product/README_template.md) as a template). 
+
+# Tools we use
+* Python
+* Tableau Dashboard.
+
+# Prototype of current output
+* An automated python script: Instructors can use this file to convert the raw data from Cavas API to 3 combined csv files for tableau data input.
+* Tableau dashboard: With the data from python script, instructors can look for the infomration on the Tableau dashboard for free. 
+
+The final dashboard is published [here](https://public.tableau.com/views/CanvasCoursePerformanceAnalysis/CoursePerformanceAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link).
+
+# Potential future function:
+* Apply machine learning model to predict learners' behaviors and scores
